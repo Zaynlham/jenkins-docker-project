@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                // Get latest code
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                // docker build
+            }
+        }
+
+        stage('Run Container') {
+            steps {
+                // docker run
+            }
+        }
+    }
+}
